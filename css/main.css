@@ -387,9 +387,8 @@ header nav ul li a:hover {
 .articles {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    justify-content: center;
-    padding-block: 6rem;
+    gap: var(--main-gap);
+    padding-block: var(--vertical-space);
 }
 
 .articles>* {
@@ -397,21 +396,18 @@ header nav ul li a:hover {
 }
 
 .articles img {
-    display: block;
-    max-width: 100%;
     border-bottom: solid 3px;
     border-top-right-radius: var(--main-border-radius);
     border-top-left-radius: var(--main-border-radius);
-    -webkit-border-image: linear-gradient(to left, red, blue) 27 / 35px;
-    -moz-border-image: linear-gradient(to left, red, blue) 27 / 35px;
-    -ms-border-image: linear-gradient(to left, red, blue) 27 / 35px;
-    border-image: linear-gradient(to left, red, blue);
+    -webkit-border-image:  linear-gradient(to left,rgb(5, 60, 64),rgb(0, 255, 157) ) 27 / 35px;
+    -moz-border-image:  linear-gradient(to left,rgb(5, 60, 64),rgb(0, 255, 157) ) 27 / 35px;
+    -ms-border-image:  linear-gradient(to left,rgb(5, 60, 64),rgb(0, 255, 157) ) 27 / 35px;
+    border-image: linear-gradient(to left,rgb(5, 60, 64),rgb(0, 255, 157) ) 27 / 35px;
     border-image-width: 0px 0px 4px auto;
 }
 
 
 .articles .article-desc {
-    flex: 1 1 auto;
     padding: 2rem;
     border-bottom-left-radius: var(--main-border-radius);
     border-bottom-right-radius: var(--main-border-radius);
@@ -419,25 +415,23 @@ header nav ul li a:hover {
 }
 
 
-.articles .article-desc h4 {
-    color: rgb(254, 176, 202);
-    text-decoration: underline;
-    text-decoration-thickness: 0.15rem;
-    text-decoration-color: #d1febb;
-    text-underline-offset: 0.05rem;
-    text-shadow: 1px 0px 15px #fdccef;
-    margin-block-end: 1rem;
+.articles .article-desc h3 {
+    color: var(--main-color);
 }
 
 .articles .article-desc p {
-    font: 300 calc(var(--sub-size) - 0.4rem)/1.2rem "Work Sans", var(--fall-back-font);
-    color: rgb(134, 89, 120);
+    font-size: clamp(0.8rem, calc(0.8rem + ((1vw - 0.25rem) * 0.4)), 1rem);
+    max-width: 25rem;
 }
 
-.article-desc>* {
-    width: -moz-fit-content;
-    width: fit-content;
+@media screen and (max-width: 1205px) {
+    .articles .article-desc h3,
+    .articles .article-desc p{
+        text-align: center;
+        margin-inline: auto;
+    }
 }
+
 
 /*? about part  */
 .about {
