@@ -309,23 +309,57 @@ header nav ul li a:hover {
 /*? part 4 : services page */
 .services {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(306px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(var(--min-card-width), 1fr));
     gap: 2rem;
-    align-content: center;
-    padding-block: 5rem;
+    padding-block: var(--vertical-space);
 }
 
+
 .services .col {
-    display: grid;
-    gap: 2rem;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .services .col .card {
     display: flex;
-    gap: 27px;
+    gap: 1.5rem;
 
 }
+
+
+
+
+.services .col .card .card-desc h3 {
+    color: var(--sub-color);
+}
+
+.services .col .card .card-desc p {
+    font-size: clamp(0.8rem, calc(0.8rem + ((1vw - 0.25rem) * 0.4)), 1rem);
+    max-width: 18.5rem;
+    color: var(--sub-color);
+}
+
+/* icon customize */
+
+.services i {
+    color: var(--main-color);
+    transition: all var(--main-transition-delay) ease;
+    margin-block: 1.3rem;
+    padding-inline-end: 1.5rem;
+}
+
+.services .image {
+    display: flex;
+}
+
+.services .image img {
+    min-height: 80%;
+    margin: auto;
+    object-fit: cover;
+}
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -337,64 +371,18 @@ header nav ul li a:hover {
     }
 
     .services i {
-        margin-block-end: 1rem !important;
-        padding-inline-end: 0 !important;
+        padding-inline-end: 0;
     }
 
 }
 
-.services .col:last-child .card:last-child {
-    margin-block-end: 15px;
-}
-
-.services .col .card .card-desc h4 {
-    font-size: calc(var(--sub-size));
-    color: var(--sub-color);
-    margin-block-end: 1rem;
-
-}
-
-.services .col .card .card-desc p {
-    font: 300 calc(var(--sub-size) - 0.4rem)/1.2rem "Work Sans", var(--fall-back-font);
-    color: var(--sub-color);
-}
-
-/* icon customize */
-.services i {
-    margin-block-end: 2rem;
-    color: var(--main-color);
-    transition: all var(--main-transition-delay) ease;
-    padding-inline-end: 1.5rem;
-}
-
-
-.services .image img {
-    position: relative;
-    max-width: 800px;
-    height: auto;
-    margin: auto;
-}
-
-
-
-
-
-@media screen and (max-width: 1150px) {
+@media screen and (min-width: 716px) and (max-width: 1150px) {
     .image {
         grid-column: span 2;
     }
 
 }
 
-@media screen and (max-width: 760px) {
-    .image {
-        grid-column: auto;
-    }
-
-    .image img {
-        width: 100%;
-    }
-}
 
 .articles {
     display: grid;
