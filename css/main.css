@@ -392,19 +392,17 @@ header nav ul li a:hover {
     transform: scale(1.03);
 }
 
-/* add blur to all other article image when you hover over one card article */
-.articles>*:hover~* {
+/* add blur to all next sibling article cards when you hover over on a specific card */
+.articles>*:hover ~ * {
     filter: blur(1px);
 }
 
+/* add blur to all preview sibling article cards when you hover over on a specific card */
 /* PARENT:hover>CHILD:not(CHILD.CLASS:hover):not(CHILD.CLASS:hover ~ CHILD.CLASS) {} */
-/* .articles:hover>*:not(:hover):not(:hover ~ *) {
-    filter: blur(1px);
-} */
-
-.articles>*:hover:has(~*) {
+.articles:hover>*:not(:hover):not(:hover ~ *) {
     filter: blur(1px);
 }
+
 
 .articles img {
     border-bottom: solid 3px;
