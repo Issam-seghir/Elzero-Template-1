@@ -337,6 +337,11 @@ header nav ul li a:hover {
     padding-inline-end: 1.5rem;
 }
 
+.services i:hover {
+	transform-origin: top right;
+	transform: translateY(-5px);
+}
+
 .services .image {
     display: flex;
 
