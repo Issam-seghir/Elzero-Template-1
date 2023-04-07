@@ -28,6 +28,8 @@
     --main-gap: clamp(2rem, calc(4rem + ((1vw - 0.25rem) * -4)), 4rem);
     --min-card-width: 270px;
     --vertical-space: 5rem;
+    --main-border-radius: clamp(5px, 2vw, 7px);
+    ;
 
     /*? Style  */
     /** font */
@@ -40,7 +42,6 @@
     --nav-background-color: #eaeaea;
     /** others */
     --main-transition-delay: 0.3s;
-    --main-border-radius: 5px;
 
 }
 
@@ -338,6 +339,7 @@ header nav ul li a:hover {
 
 .services .image {
     display: flex;
+
 }
 
 .services .image img {
@@ -376,7 +378,8 @@ header nav ul li a:hover {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: var(--main-gap);
     padding-block: var(--vertical-space);
-    cursor: pointer;
+    pointer-events: none;
+    transition: all 0.5s ease;
 }
 
 
@@ -384,17 +387,29 @@ header nav ul li a:hover {
 .articles>* {
     transition: all 0.5s ease;
     border-radius: var(--main-border-radius);
-    box-shadow: 2px 2px 2px 1.5px rgba(0, 0, 0, 0.306);
+    box-shadow: 2px 2px 2px 1.9px rgba(0, 0, 0, 0.306);
+    cursor: pointer;
+    pointer-events:fill;
 }
 
 .articles>*:hover {
-    box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.306);
-    transform: scale(1.03);
+    transform: scale(1.1);
+    box-shadow: 25px 10px 100px 3px rgba(81, 221, 16, 0.921);
+    border: solid 0.5px #0446394a ;
+
+}
+.articles>*:hover .article-desc h3{
+        transform: scale(1.1);
+            text-decoration: underline;
+            text-decoration-color: aquamarine;
+            text-decoration-thickness: 3px;
+
 }
 
 /* add blur to all next sibling article cards when you hover over on a specific card */
-.articles>*:hover ~ * {
+.articles>*:hover~* {
     filter: blur(1px);
+
 }
 
 /* add blur to all preview sibling article cards when you hover over on a specific card */
@@ -412,9 +427,8 @@ header nav ul li a:hover {
     -moz-border-image: linear-gradient(to left, rgb(5, 60, 64), rgb(0, 255, 157)) 27 / 35px;
     -ms-border-image: linear-gradient(to left, rgb(5, 60, 64), rgb(0, 255, 157)) 27 / 35px;
     border-image: linear-gradient(to left, rgb(5, 60, 64), rgb(0, 255, 157)) 27 / 35px;
-    border-image-width: 0px 0px 4px auto;
+    border-image-width: 0 0 4px 0;
 }
-
 
 .articles .article-desc {
     padding: 2rem;
@@ -425,6 +439,7 @@ header nav ul li a:hover {
 
 
 .articles .article-desc h3 {
+    transition: all 0.5s ease;
     color: var(--main-color);
 }
 
