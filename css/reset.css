@@ -28,7 +28,7 @@ body {
 }
 
 /* Make Links easier to work with */
-a[role="link"]{
+a[role="link"] {
   display: block;
   text-decoration: none;
 }
@@ -42,8 +42,7 @@ a:not([class]) {
 img,
 picture,
 video,
-svg
-{
+svg {
   display: block;
   max-width: 100%;
 }
