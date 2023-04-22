@@ -37,7 +37,28 @@ This is  a respoonsive template with pure CSS/HTML (no framework)
 
 ## About The Project
 
-this template is  made with best practice of the  modern CSS  ,
+this template is  made using the  best practice of the  modern CSS  thechnique (fluid typography / space) using clamp() and Grid .
+this is template its make follwing the [elzero front end course](https://elzero.org/tracks/front-end/) .
+for more info see the :
+- [elzero youtube channel](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF)
+- [elzero website]()
+
+
+## Resoursos 
+
+- modern reset css 
+-  [psd template](https://www.graphberry.com/item/leon-psd-agency-template)
+- [elszero web school assign](https://elzero.org/practical-html-css/)
+
+
+
+## Related Projects 
+- [@PhilopaterHany](https://github.com/PhilopaterHany/Leon-Template)
+
+Here are some related projects
+
+[Awesome README](https://github.com/matiassingers/awesome-readme)
+
 
 using clamp() (fluid typography/space) and grid layout 
 
@@ -101,5 +122,6 @@ Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_
 
 Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
+## Support
 <a href="https://www.buymeacoffee.com/issam.seghir" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
