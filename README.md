@@ -1,39 +1,50 @@
-# <h1 align="center" >Responsive Elzero-Template-1</h1>
-<a name="readme-top"></a>
+
+
 <div align="center">
 
-![frk](https://img.shields.io/github/forks/Issam-seghir/Elzero-Template-1?style=plastic)
-![str](https://img.shields.io/github/stars/Issam-seghir/Elzero-Template-1?style=plastic)
-![deploy](https://img.shields.io/website?down_color=red&down_message=down&style=plastic&up_color=succes&up_message=up&url=https%3A%2F%2Fissam-seghir.github.io%2FElzero-Template-1%2F)
+![frk](https://img.shields.io/github/forks/Issam-seghir/Elzero-Template-1?style=flat-square)
+![str](https://img.shields.io/github/stars/Issam-seghir/Elzero-Template-1?style=flat-square)
+![deploy](https://img.shields.io/website?down_color=red&down_message=down&style=flat-square&up_color=succes&up_message=up&url=https%3A%2F%2Fissam-seghir.github.io%2FElzero-Template-1%2F)
 
 
-![cntr](https://img.shields.io/github/contributors/Issam-seghir/Elzero-Template-1?color=pink)
-![pullreQ](https://img.shields.io/github/issues-pr/Issam-seghir/Elzero-Template-1?color=orange)
-![comt](https://img.shields.io/github/last-commit/Issam-seghir/Elzero-Template-1)
+![cntr](https://img.shields.io/github/contributors/Issam-seghir/Elzero-Template-1?color=pink&style=for-the-badge)
+![pullreQ](https://img.shields.io/github/issues-pr/Issam-seghir/Elzero-Template-1?color=orange&style=for-the-badge)
+![comt](https://img.shields.io/github/last-commit/Issam-seghir/Elzero-Template-1?style=for-the-badge)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://choosealicense.com/licenses/mit/)
+<h1 align="center" >Responsive Elzero-Template-1</h1>
 
-This is  a respoonsive template with pure CSS/HTML (no framework or js) 
+  <p align="center">
+This is  a respoonsive template with pure CSS/HTML (no framework) 
 
-in all devices from large  screens 💻 to small mobile devices 📱 
+ with nice look and feel from large  screens 💻  to small mobile devices 📱 
+    <br />
+    <br />
+    <a href="https://github.com/Issam-seghir/Elzero-Template-1">View Demo</a>
+    ·
+    <a href="https://github.com/Issam-seghir/Elzero-Template-1/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/Issam-seghir/Elzero-Template-1/issues">Request Feature</a>
+  </p>
 
-this template is  made with best practice of the  modern CSS  ,
-
-using clamp() (fluid typography/space) and grid layout 
 
 </div>
 
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
 
 
 
 
 ## About The Project
 
+this template is  made with best practice of the  modern CSS  ,
+
+using clamp() (fluid typography/space) and grid layout 
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -81,9 +92,6 @@ Don't forget to give the project a star! Thanks again!
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
