@@ -2,16 +2,19 @@
 
 <div align="center">
 
-![frk](https://img.shields.io/github/forks/Issam-seghir/Elzero-Template-1?style=flat-square)
-![str](https://img.shields.io/github/stars/Issam-seghir/Elzero-Template-1?style=flat-square)
-![deploy](https://img.shields.io/website?down_color=red&down_message=down&style=flat-square&up_color=succes&up_message=up&url=https%3A%2F%2Fissam-seghir.github.io%2FElzero-Template-1%2F)
 
+
+
+<h1 align="center" >Responsive Elzero-Template-1</h1>
 
 ![cntr](https://img.shields.io/github/contributors/Issam-seghir/Elzero-Template-1?color=pink&style=for-the-badge)
 ![pullreQ](https://img.shields.io/github/issues-pr/Issam-seghir/Elzero-Template-1?color=orange&style=for-the-badge)
 ![comt](https://img.shields.io/github/last-commit/Issam-seghir/Elzero-Template-1?style=for-the-badge)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://choosealicense.com/licenses/mit/)
-<h1 align="center" >Responsive Elzero-Template-1</h1>
+
+![frk](https://img.shields.io/github/forks/Issam-seghir/Elzero-Template-1?style=flat-square)
+![str](https://img.shields.io/github/stars/Issam-seghir/Elzero-Template-1?style=flat-square)
+![deploy](https://img.shields.io/website?down_color=red&down_message=down&style=flat-square&up_color=succes&up_message=up&url=https%3A%2F%2Fissam-seghir.github.io%2FElzero-Template-1%2F)
 
   <p align="center">
 This is  a respoonsive template with pure CSS/HTML (no framework) 
