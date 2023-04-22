@@ -19,7 +19,7 @@ This is  a respoonsive template with pure CSS/HTML (no framework)
  with nice look and feel from large  screens 💻  to small mobile devices 📱 
     <br />
     <br />
-    <a href="https://github.com/Issam-seghir/Elzero-Template-1">View Demo</a>
+    <a href="https://issam-seghir.github.io/Elzero-Template-1/">View Demo</a>
     ·
     <a href="https://github.com/Issam-seghir/Elzero-Template-1/issues">Report Bug</a>
     ·
