@@ -45,6 +45,7 @@
 
 }
 
+/* scroll bar style */
 ::selection {
     background-color: black;
     color: #fff;
@@ -249,20 +250,39 @@ header nav ul li a:hover {
 
 /* landing title  */
 .landing .title {
+    position: relative;
     letter-spacing: var(--letter-spacing);
     text-transform: capitalize;
     color: var(--main-color);
-    transition: all calc(var(--main-transition-delay) + 0.2s) ease;
 }
 
 /*  landing title hover animation*/
-.landing .title:hover {
-    transform: skew(0.5deg, 0.5deg) translate(10px, 10px);
-    -webkit-box-shadow: 0px 17px 0px -11px rgba(51, 142, 128, 0.74) !important;
-    -moz-box-shadow: 0px 17px 0px -12px rgba(131, 252, 244, 0.74) !important;
-    box-shadow: 0px 17px 15px -12px rgba(10, 146, 117, 0.74);
-    border-bottom-left-radius: 5%;
-    border-inline-color: transparent;
+
+.landing .title:hover::before {
+    content: "";
+    position: absolute;
+    right: 10%;
+    width: 80%;
+    height: 35%;
+    border-radius: 100%;
+    border-bottom: solid 3px var(--main-color);
+    bottom: 0;
+    box-shadow: rgba(217, 255, 241, 0.508)0px 3px 1px 0px;
+    animation: smile 1.5s   both;
+}
+
+
+@keyframes smile {
+    100% {
+        transform: scaleY(1.5);
+        transform-origin: 100% 0%;
+    }
+
+    0% {
+
+        transform: scaleY(0);
+        transform-origin: 100% 0%;
+    }
 }
 
 /* landing description  */
@@ -271,7 +291,6 @@ header nav ul li a:hover {
     letter-spacing: -1px;
     color: var(--sub-color);
     width: min(50%, 18rem);
-    transition: all calc(var(--main-transition-delay) + 0.2s) ease;
 }
 
 /* add line-height only in desktop / tablet */
@@ -281,10 +300,6 @@ header nav ul li a:hover {
     }
 }
 
-/*  landing description hover animation*/
-.landing .description:hover {
-    transform: translateY(2.5px);
-}
 
 /*? part 3 : features cards */
 .features {
@@ -365,8 +380,8 @@ header nav ul li a:hover {
 }
 
 .services i:hover {
-	transform-origin: top right;
-	transform: translateY(-5px);
+    transform-origin: top right;
+    transform: translateY(-5px);
 }
 
 .services .image {
@@ -421,20 +436,21 @@ header nav ul li a:hover {
     border-radius: var(--main-border-radius);
     box-shadow: 2px 2px 2px 1.9px rgba(0, 0, 0, 0.306);
     cursor: pointer;
-    pointer-events:fill;
+    pointer-events: fill;
 }
 
 .articles>*:hover {
     transform: scale(1.1);
     box-shadow: 25px 10px 100px 3px rgba(81, 221, 16, 0.921);
-    border: solid 0.5px #0446394a ;
+    border: solid 0.5px #0446394a;
 
 }
-.articles>*:hover .article-desc h3{
-        transform: scale(1.1);
-            text-decoration: underline;
-            text-decoration-color: aquamarine;
-            text-decoration-thickness: 3px;
+
+.articles>*:hover .article-desc h3 {
+    transform: scale(1.1);
+    text-decoration: underline;
+    text-decoration-color: aquamarine;
+    text-decoration-thickness: 3px;
 
 }
 
