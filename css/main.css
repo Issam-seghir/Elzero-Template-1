@@ -45,16 +45,16 @@
 }
 
 ::selection {
-    background-color:var(--main-color);
+    background-color: var(--main-color);
     color: var(--sub-color);
 }
 
 
 /* scroll bar style */
 /* For Firefox */
-:root{
+:root {
     overflow-y: scroll;
-    scrollbar-color:  var(--main-color) #F5F5F5;
+    scrollbar-color: var(--main-color) #F5F5F5;
     scrollbar-width: 12px;
 
 
@@ -193,13 +193,14 @@ header nav ul li a {
     border-radius: 2px;
     animation: out calc(var(--main-transition-delay) + 0.2s) ease 1;
 }
+
 header nav ul::before {
-        content: "";
-            position: absolute;
-            right: 5px;
-            top: -21px;
-            border: 10px solid;
-            border-color: transparent transparent var(--sub-two-color) transparent;
+    content: "";
+    position: absolute;
+    right: 5px;
+    top: -21px;
+    border: 10px solid;
+    border-color: transparent transparent var(--sub-two-color) transparent;
 }
 
 /* remove border from last item in dropdown menu */
@@ -272,13 +273,14 @@ header nav ul li a:hover {
     letter-spacing: var(--letter-spacing);
     text-transform: capitalize;
     color: var(--main-color);
-    transition: all 1s ease ;
+    transition: all 1s ease;
 }
 
 /*  landing title hover animation*/
 .landing .title:hover {
-    transform: scale(1.2) ;
+    transform: scale(1.2);
 }
+
 .landing .title:hover::before {
     content: "";
     position: absolute;
@@ -289,7 +291,7 @@ header nav ul li a:hover {
     border-bottom: solid 3px var(--main-color);
     bottom: 0;
     box-shadow: rgba(217, 255, 241, 0.508)0px 3px 1px 0px;
-    animation: smile 1.5s   both;
+    animation: smile 1.5s both;
 }
 
 
@@ -338,12 +340,11 @@ header nav ul li a:hover {
     position: relative;
     display: block;
     color: var(--main-color);
-    transition: all 1.8s ease;
+    transition: all 1.2s ease;
 }
 
 
 /* icon animation  */
-
 
 .features .anim {
     width: 100px;
@@ -354,7 +355,7 @@ header nav ul li a:hover {
     align-items: center;
     border: 2px solid var(--main-color);
     border-radius: 50%;
-    transition: all var(--main-transition-delay) ease;
+    transition: all 1.2s ease;
 }
 
 
@@ -362,7 +363,7 @@ header nav ul li a:hover {
     background-color: var(--main-color);
 }
 
-.features .anim:hover i{
+.features .anim:hover i {
     color: white;
     transform: scale(1.3);
 }
