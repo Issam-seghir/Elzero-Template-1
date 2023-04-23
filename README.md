@@ -40,58 +40,57 @@ This is  a respoonsive template with pure CSS/HTML (no framework)
 
 ## About The Project
 
-this template is  made using the  best practice of the  modern CSS  thechnique (fluid typography / space) using clamp() and Grid .
+This template is made using the best practices of modern CSS techniques such as fluid typography and space using clamp() and Grid Layout. 
 
-this is template its make follwing the [elzero front end course](https://elzero.org/tracks/front-end/) .
+I have made an effort to replace every media query with modern CSS techniques. Please feel free to make a pull request and suggest any changes to further improve the project based on best practices. 😊
 
-
-## Resoursos 
-
-- modern reset css 
--  [psd template](https://www.graphberry.com/item/leon-psd-agency-template)
-- [elzero youtube channel](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF)
-- [elszero web school assign](https://elzero.org/practical-html-css/)
-
-
-
-## Related Projects & inspiration
-- [@PhilopaterHany](https://github.com/PhilopaterHany/Leon-Template)
-
-Here are some related projects
-
-[Awesome README](https://github.com/matiassingers/awesome-readme)
-
-
-using clamp() (fluid typography/space) and grid layout 
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-
-
+I have created this project following  the [Elzero front-end course](https://elzero.org/tracks/front-end/) .
 
 ### Built With
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Resoursos 
+- ✨ Tools
+  - [websemantics : fluid typo/space generator](https://websemantics.uk/tools/responsive-font-calculator/)
+  - [Utopia : another fluid typo/space generator](https://utopia.fyi/grid/calculator/)
+  - [modern reset css](https://github.com/Andy-set-studio/modern-css-reset/blob/master/dist/reset.css)
+ 
+- 📑Articles 
+  - [moderncss.dev](https://moderncss.dev/)
+  - [min(), max(), and clamp() CSS Functions - Ahmad Shadeed](https://ishadeed.com/article/css-min-max-clamp/)
+  - [min(), max(), and clamp() are CSS magic!  CSS-Tricks](https://css-tricks.com/min-max-and-clamp-are-css-magic/)
+  - [min(), max(), and clamp(): three logical CSS functions](https://web.dev/min-max-clamp/)
+  - [Flexible layouts without media queries - LogRocket Blog](https://blog.logrocket.com/flexible-layouts-without-media-queries/)
+  
+- 💻 Turtorials
+  - [Free Responsive Layouts Course - Kevin powell](https://www.kevinpowell.co/courses/)
+  - [Learn Responsive Design - Web.dev](https://web.dev/learn/design/)
+  - [elzero youtube channel](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF)
+  - [elszero web school](https://elzero.org/practical-html-css/)
+
+- 🎨 Design 
+  - [Leon template psd](https://www.graphberry.com/item/leon-psd-agency-template)
+
+
+## Related Projects & inspiration 🌠
+- [@PhilopaterHany](https://github.com/PhilopaterHany/Leon-Template)
+- [@mouatezbenariba](https://github.com/mouatezbenariba/template-html-css-01)
+- [@HalemoGPA](https://github.com/HalemoGPA/HTML_CSS_TEMP_1)
+- [@Reem-Elamoudi](https://github.com/Reem-Elamoudi/elzero-template2)
+
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Add the dark mode 
+- [ ] ...
+- [ ] ...
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -115,14 +114,6 @@ Don't forget to give the project a star! Thanks again!
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
 
 ## Support
 <a href="https://www.buymeacoffee.com/issam.seghir" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
