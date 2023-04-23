@@ -40,17 +40,32 @@ This is  a respoonsive template with pure CSS/HTML (no framework)
 
 ## About The Project
 
-this template is  made using the  best practice of the  modern CSS  thechnique (fluid typography / space) using clamp() and Grid .
+This template is made using the best practices of modern CSS techniques such as fluid typography and space using clamp() and Grid Layout. 
 
-this is template its make follwing the [elzero front end course](https://elzero.org/tracks/front-end/) .
+I have made an effort to replace every media query with modern CSS techniques. Please feel free to make a pull request and suggest any changes to further improve the project based on best practices. 😊
+
+I have created this project following  the [Elzero front-end course](https://elzero.org/tracks/front-end/) .
 
 
 ## Resoursos 
 
-- modern reset css 
+
 -  [psd template](https://www.graphberry.com/item/leon-psd-agency-template)
-- [elzero youtube channel](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF)
-- [elszero web school assign](https://elzero.org/practical-html-css/)
+- Tools
+  - [websemantics : fluid typo/space generator](https://websemantics.uk/tools/responsive-font-calculator/)
+  - [Utopia : another fluid typo/space generator](https://utopia.fyi/grid/calculator/)
+  - [modern reset css](https://github.com/Andy-set-studio/modern-css-reset/blob/master/dist/reset.css)
+ 
+- Articles / Turtorials
+  - [moderncss.dev](https://moderncss.dev/)
+  - [min(), max(), and clamp() CSS Functions - Ahmad Shadeed](https://ishadeed.com/article/css-min-max-clamp/)
+  - [min(), max(), and clamp() are CSS magic!  CSS-Tricks](https://css-tricks.com/min-max-and-clamp-are-css-magic/)
+  - [min(), max(), and clamp(): three logical CSS functions](https://web.dev/min-max-clamp/)
+  - [Flexible layouts without media queries - LogRocket Blog](https://blog.logrocket.com/flexible-layouts-without-media-queries/)
+  - [Free Responsive Layouts Course - Kevin powell](https://www.kevinpowell.co/courses/)
+  - [Learn Responsive Design - Web.dev](https://web.dev/learn/design/)
+  - [elzero youtube channel](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF)
+  - [elszero web school](https://elzero.org/practical-html-css/)
 
 
 
@@ -58,27 +73,12 @@ this is template its make follwing the [elzero front end course](https://elzero.
 - [@PhilopaterHany](https://github.com/PhilopaterHany/Leon-Template)
 - [@mouatezbenariba](https://github.com/mouatezbenariba/template-html-css-01)
 - [@HalemoGPA](https://github.com/HalemoGPA/HTML_CSS_TEMP_1)
-
-Here are some related projects
-
-[Awesome README](https://github.com/matiassingers/awesome-readme)
-
-
-using clamp() (fluid typography/space) and grid layout 
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-
-
+- [@Reem-Elamoudi](https://github.com/Reem-Elamoudi/elzero-template2)
 
 ### Built With
 
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Acknowledgments
 
