@@ -34,11 +34,11 @@
 
     50% {
         text-shadow: 0 3px 20px var(--sub-color), 0 0 20px var(--sub-color),
-            0 -5px 10px rgb(0, 255, 85),
-            -2px -5px 5px var(--main-color),
-            3px -10px 10px var(--main-color),
-            -4px -15px 20px var(--main-color),
-            2px -20px 30px var(--main-color);
+            0 -5px 10px rgb(66, 255, 129),
+            -2px -5px 5px rgb(66, 255, 129),
+            3px -10px 10px rgb(66, 255, 129),
+            -4px -15px 20px rgb(111, 128, 116),
+            2px -20px 30px rgb(151, 179, 160);
     }
 
     75% {
