@@ -41,21 +41,20 @@ This is  a respoonsive template with pure CSS/HTML (no framework)
 ## About The Project
 
 this template is  made using the  best practice of the  modern CSS  thechnique (fluid typography / space) using clamp() and Grid .
+
 this is template its make follwing the [elzero front end course](https://elzero.org/tracks/front-end/) .
-for more info see the :
-- [elzero youtube channel](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF)
-- [elzero website]()
 
 
 ## Resoursos 
 
 - modern reset css 
 -  [psd template](https://www.graphberry.com/item/leon-psd-agency-template)
+- [elzero youtube channel](https://www.youtube.com/playlist?list=PLDoPjvoNmBAzHSjcR-HnW9tnxyuye8KbF)
 - [elszero web school assign](https://elzero.org/practical-html-css/)
 
 
 
-## Related Projects 
+## Related Projects & inspiration
 - [@PhilopaterHany](https://github.com/PhilopaterHany/Leon-Template)
 
 Here are some related projects
