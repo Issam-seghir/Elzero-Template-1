@@ -254,10 +254,13 @@ header nav ul li a:hover {
     letter-spacing: var(--letter-spacing);
     text-transform: capitalize;
     color: var(--main-color);
+    transition: all 1s ease ;
 }
 
 /*  landing title hover animation*/
-
+.landing .title:hover {
+    transform: scale(1.2) ;
+}
 .landing .title:hover::before {
     content: "";
     position: absolute;
@@ -274,7 +277,7 @@ header nav ul li a:hover {
 
 @keyframes smile {
     100% {
-        transform: scaleY(1.5);
+        transform: scaleY(1.2);
         transform-origin: 100% 0%;
     }
 
