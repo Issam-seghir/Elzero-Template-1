@@ -29,7 +29,6 @@
     --min-card-width: 270px;
     --vertical-space: 5rem;
     --main-border-radius: clamp(5px, 2vw, 7px);
-    ;
 
     /*? Style  */
     /** font */
@@ -150,11 +149,7 @@ header .logo a {
 
 
 
-/* animate nav icon */
-header nav .nav-icon:hover {
-    animation: spin var(--main-transition-delay) ease 2;
-    animation-direction: alternate;
-}
+
 
 @keyframes spin {
 
@@ -169,19 +164,28 @@ header nav {
     cursor: pointer;
 }
 
+/* animate nav icon */
+header nav .nav-icon:hover {
+    animation: spin var(--main-transition-delay) ease 2;
+    animation-direction: alternate;
+}
+
 /* position of the dropdown menu  */
 header nav ul {
-    display: none;
     position: absolute;
     top: 134%;
     right: 0;
+    display: none;
     z-index: 1;
+
 }
 
 /* display dropdown menu on hover */
 header nav:hover ul {
     display: block;
 }
+
+
 
 /* customize links in dropdown menu */
 header nav ul li a {
@@ -191,7 +195,16 @@ header nav ul li a {
     padding: 1em;
     padding-inline-end: 3.12em;
     border-radius: 2px;
-    animation: out calc(var(--main-transition-delay) + 0.2s) ease 1;
+    -webkit-transition: padding .2s;
+    -moz-transition: padding .2s;
+    -ms-transition: padding .2s;
+    -o-transition: padding .2s;
+    transition: padding .2s;
+}
+
+header nav ul li:hover a {
+    padding-left: 2rem;
+    font-weight: 700;
 }
 
 header nav ul::before {
@@ -206,41 +219,6 @@ header nav ul::before {
 /* remove border from last item in dropdown menu */
 header nav ul li:not(:last-child) a {
     border-bottom: #1a181b 1px solid;
-}
-
-/* dropdown  links animation when out hover */
-@keyframes out {
-    from {
-        transform: translateX(-30%);
-        background-color: var(--sub-color);
-        color: var(--main-color);
-        border-bottom: var(--main-color) 3px solid;
-        border-radius: var(--main-border-radius);
-    }
-
-    to {
-        transform: translateX(0%);
-    }
-}
-
-/* dropdown  links animation when hover */
-header nav ul li a:hover {
-    animation: in calc(var(--main-transition-delay + 0.2s)) ease 1 alternate;
-    animation-fill-mode: forwards;
-}
-
-@keyframes in {
-    from {
-        transform: translateX(0%);
-    }
-
-    to {
-        transform: translateX(-30%);
-        background-color: var(--sub-color);
-        color: var(--main-color);
-        border-bottom: var(--main-color) 3px solid;
-        border-radius: var(--main-border-radius);
-    }
 }
 
 
@@ -564,6 +542,11 @@ header nav ul li a:hover {
 
 .about .about-desc {
     line-height: 2.2;
+}
+
+.about .about-desc p:first-child {
+    color: black;
+    font-weight: 700;
 }
 
 .about .about-desc p {

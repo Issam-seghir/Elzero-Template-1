@@ -4,16 +4,16 @@
     /* 3.6rem(57.6px) @ 25rem(400px) increasing to 6rem(96px) @ 75rem(1200px) */
     font: 800 clamp(3.6rem, calc(3.6rem + ((1vw - 0.25rem) * 8.8)), 6rem) var(--main-font),
         var(--fall-back-font);
-    color: var(--main-color);
+    color: #ebeced;
     margin: 0 auto;
     padding-block: 3.45rem;
     text-align: center;
-    animation: 2s Blazing infinite alternate linear;
+    /* animation: 2s Blazing infinite alternate linear; */
 }
 
 /* inspired from : https: //codepen.io/makan/pen/yyjRZx */
 
-@keyframes Blazing {
+/* @keyframes Blazing {
     0% {
         text-shadow: 0 3px 20px var(--sub-color), 0 0 20px var(--sub-color),
             0 0 10px var(--main-color),
@@ -58,7 +58,7 @@
             -2px -5px 5px var(--main-color),
             4px -10px 10px var(--main-color);
     }
-}
+} */
 
 .bkg-gray {
     background-color: var(--sub-two-color);
