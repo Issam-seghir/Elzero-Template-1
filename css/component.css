@@ -4,16 +4,10 @@
     /* 3.6rem(57.6px) @ 25rem(400px) increasing to 6rem(96px) @ 75rem(1200px) */
     font: 800 clamp(3.6rem, calc(3.6rem + ((1vw - 0.25rem) * 8.8)), 6rem) var(--main-font),
         var(--fall-back-font);
-    color: #d5ffc0;
+    color: var(--main-color);
     margin: 0 auto;
     padding-block: 3.45rem;
     text-align: center;
-    text-shadow: 0 3px 20px rgb(2, 44, 38),
-        0 0 20px rgb(0, 255, 98)(0, 242, 255),
-        0 0 10px rgb(77, 255, 0),
-        4px -5px 6px rgb(182, 253, 242),
-        -4px -10px 10px rgb(214, 252, 246),
-        0 -10px 30px rgb(216, 255, 249);
     animation: 2s Blazing infinite alternate linear;
 }
 
@@ -21,48 +15,48 @@
 
 @keyframes Blazing {
     0% {
-        text-shadow: 0 3px 20px rgb(2, 44, 38), 0 0 20px rgb(2, 44, 38),
-            0 0 10px rgb(0, 255, 76),
-            0 0 0 rgb(216, 255, 249),
-            0 0 5px rgb(216, 255, 249),
-            -2px -5px 5px rgb(216, 255, 249),
-            4px -10px 10px rgb(216, 255, 249);
+        text-shadow: 0 3px 20px var(--sub-color), 0 0 20px var(--sub-color),
+            0 0 10px var(--main-color),
+            0 0 0 var(--main-color),
+            0 0 5px var(--main-color),
+            -2px -5px 5px var(--main-color),
+            4px -10px 10px var(--main-color);
     }
 
     25% {
-        text-shadow: 0 3px 20px rrgb(2, 44, 38), 0 0 30px rrgb(2, 44, 38),
-            0 0 20px rgb(0, 255, 85),
-            0 0 5px rgb(216, 255, 249),
-            -2px -5px 5px rgb(216, 255, 249),
-            3px -10px 10px rgb(216, 255, 249),
-            -4px -15px 20px rgb(216, 255, 249);
+        text-shadow: 0 3px 20px var(--sub-color), 0 0 30px var(--sub-color),
+            0 0 20px var(--main-color),
+            0 0 5px var(--main-color),
+            -2px -5px 5px var(--main-color),
+            3px -10px 10px var(--main-color),
+            -4px -15px 20px var(--main-color);
     }
 
     50% {
-        text-shadow: 0 3px 20px rrgb(2, 44, 38), 0 0 20px rrgb(2, 44, 38),
+        text-shadow: 0 3px 20px var(--sub-color), 0 0 20px var(--sub-color),
             0 -5px 10px rgb(0, 255, 85),
-            -2px -5px 5px rgb(216, 255, 249),
-            3px -10px 10px rgb(216, 255, 249),
-            -4px -15px 20px rgb(216, 255, 249),
-            2px -20px 30px rgba(0, 229, 255, 0.486);
+            -2px -5px 5px var(--main-color),
+            3px -10px 10px var(--main-color),
+            -4px -15px 20px var(--main-color),
+            2px -20px 30px var(--main-color);
     }
 
     75% {
-        text-shadow: 0 3px 20px rgb(2, 44, 38), 0 0 20px rgb(2, 44, 38),
-            0 -5px 10px rgb(0, 255, 85),
-            3px -5px 5px rgb(216, 255, 249),
-            -4px -10px 10px rgb(216, 255, 249),
-            2px -20px 30px rgb(0, 255, 85),
+        text-shadow: 0 3px 20px var(--sub-color), 0 0 20px var(--sub-color),
+            0 -5px 10px var(--main-color),
+            3px -5px 5px var(--main-color),
+            -4px -10px 10px var(--main-color),
+            2px -20px 30px var(--main-color),
             0px -25px 40px rgba(255, 255, 0, 0)
     }
 
     100% {
-        text-shadow: 0 3px 20px rgb(2, 44, 38), 0 0 20px rgb(2, 44, 38),
-            0 0 10px rgb(0, 255, 85),
-            0 0 0 rgb(216, 255, 249),
-            0 0 5px rgb(216, 255, 249),
-            -2px -5px 5px rgb(0, 229, 255),
-            4px -10px 10px rgb(0, 229, 255);
+        text-shadow: 0 3px 20px var(--sub-color), 0 0 20px var(--sub-color),
+            0 0 10px var(--main-color),
+            0 0 0 var(--main-color),
+            0 0 5px var(--main-color),
+            -2px -5px 5px var(--main-color),
+            4px -10px 10px var(--main-color);
     }
 }
 
@@ -82,7 +76,7 @@
     transform: translateX(-50%);
     font: 400 clamp(1rem, calc(0.5rem + ((1vw - 0.25rem) * 2)), 1.5rem) var(--main-font),
         var(--fall-back-font);
-    color: #d3ffc4;
+    color: var(--sub-color)
 }
 
 
