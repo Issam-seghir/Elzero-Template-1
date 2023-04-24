@@ -225,7 +225,7 @@ header nav ul li:not(:last-child) a {
 /*? part 2 : landing page */
 /* landing background */
 .landing {
-    background-image: url(../assets/images/landing.jpg);
+    background-image: url(../assets/images/landing.webp);
     background-position: -1px 46%;
     background-size: cover;
     height: calc(100vh - var(--header-height));
