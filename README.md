@@ -38,7 +38,7 @@ with a visually appealing design that looks great on both large screens 💻 and
 <img width="700" src="lighthouse_results/desktop/pagespeed.svg" /><br>
 
 <details><summary><b>Mobile (click to toggle)</b></summary><br>
-<img width="700" src="lighthouse_results/mobile/pagespeed.svgg" /><p></p>
+<img width="700" src="lighthouse_results/mobile/pagespeed.svg" /><p></p>
 
 </details>
 
