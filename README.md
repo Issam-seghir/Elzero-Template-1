@@ -73,17 +73,10 @@ I have created this project following  the [Elzero front-end course](https://elz
 
 
 <div align="center">
-Thanks To oussama elzero
-
-77
-
+  
+   To [Oussama Elzero](https://github.com/OsamaElzero)
+  
 i sincerely appreciate your effort and the time you have taken to provide us with such valuable information and advice through your excellent online courses. 
-
-78
-
-
-
-79
 
 thank you for generously sharing your knowledge and expertise with us for free !!
 
