@@ -55,7 +55,7 @@ I have created this project following  the [Elzero front-end course](https://elz
 
 <div align="center">
 
-[![Google PageSpeed](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fissam-seghir-github-io%2FElzero-Template-1%2F&form_factor=desktop)
+[![Google PageSpeed](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fissam-seghir.github.io%2FElzero-Template-1%2F&form_factor=desktop)
 
 </div>
 
