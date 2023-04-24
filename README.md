@@ -101,7 +101,7 @@ I have created this project following  the [Elzero front-end course](https://elz
 ## Roadmap
 
 - [ ] Add the dark mode 
-- [ ] ...
+- [ ] Improve  Accessibility
 - [ ] ...
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
