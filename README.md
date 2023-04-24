@@ -17,9 +17,9 @@
 ![deploy](https://img.shields.io/website?down_color=red&down_message=down&style=flat-square&up_color=succes&up_message=up&url=https%3A%2F%2Fissam-seghir.github.io%2FElzero-Template-1%2F)
 
   <p align="center">
-This is  a respoonsive template with pure CSS/HTML (no framework) 
+A simple, clean, and responsive template created using only CSS and HTML (no frameworks)
 
- with nice look and feel from large  screens 💻  to small mobile devices 📱 
+with a visually appealing design that looks great on both large screens 💻 and small mobile devices 📱.
     <br />
     <br />
     <a href="https://issam-seghir.github.io/Elzero-Template-1/">View Demo</a>
@@ -42,7 +42,7 @@ This is  a respoonsive template with pure CSS/HTML (no framework)
 
 This template is made using the best practices of modern CSS techniques such as fluid typography and space using clamp() and Grid Layout. 
 
-I have made an effort to replace every media query with modern CSS techniques. Please feel free to make a pull request and suggest any changes to further improve the project based on best practices. 😊
+I have made an effort to replace every media query with modern CSS techniques. Please feel free to send a PR and suggest any changes to further improve the project based on best practices. 😊
 
 I have created this project following  the [Elzero front-end course](https://elzero.org/tracks/front-end/) .
 
@@ -51,6 +51,9 @@ I have created this project following  the [Elzero front-end course](https://elz
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
+## Lighthouse PageSpeed Insights
+
+[![Google PageSpeed](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
 
 ## Resoursos 
 - ✨ Tools
@@ -105,9 +108,6 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
