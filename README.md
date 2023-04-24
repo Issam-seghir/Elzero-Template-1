@@ -16,6 +16,7 @@
 ![str](https://img.shields.io/github/stars/Issam-seghir/Elzero-Template-1?style=flat-square)
 ![deploy](https://img.shields.io/website?down_color=red&down_message=down&style=flat-square&up_color=succes&up_message=up&url=https%3A%2F%2Fissam-seghir.github.io%2FElzero-Template-1%2F)
 
+
   <p align="center">
 A simple, clean, and responsive template created using only CSS and HTML (no frameworks)
 
@@ -29,11 +30,21 @@ with a visually appealing design that looks great on both large screens 💻 and
     <a href="https://github.com/Issam-seghir/Elzero-Template-1/issues">Request Feature</a>
   </p>
 
+<br>
+<hr>
+<a title="Check Lighthouse out" target="_blank" href="https://github.com/GoogleChrome/lighthouse"><img alt="Lighthouse Average Results" width="275" src="https://img.shields.io/badge/Lighthouse-Average_Results-2A2E30.svg?logo=lighthouse&cacheSeconds=3600" /></a><br>
+<b>Desktop</b>
+
+<img width="700" src="lighthouse_results/desktop/pagespeed.svg" /><br>
+
+<details><summary><b>Mobile (click to toggle)</b></summary><br>
+<img width="700" src="lighthouse_results/mobile/pagespeed.svgg" /><p></p>
+
+</details>
+
+Created with [Lighthouse-Badger](https://github.com/myactionway/lighthouse-badger-action "Get it") ✨
 
 </div>
-
-
-
 
 
 
@@ -51,37 +62,6 @@ I have created this project following  the [Elzero front-end course](https://elz
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-## Lighthouse PageSpeed Insights
-
-<div align="center">
-
-[![Google PageSpeed](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fissam-seghir.github.io%2FElzero-Template-1%2F&form_factor=desktop)
-
-</div>
-
-
-
-## Special Thanks
-
-
-
-
-
-
-
-
-
-
-<div align="center">
-  
-   To [Oussama Elzero](https://github.com/OsamaElzero)
-  
-i sincerely appreciate your effort and the time you have taken to provide us with such valuable information and advice through your excellent online courses. 
-
-thank you for generously sharing your knowledge and expertise with us for free !!
-
-<img src="https://user-images.githubusercontent.com/74573675/233981012-36b8cad9-5d3d-4115-9d43-f7e46dc57bac.png" width="150" height="150">
-</div>
 
 
 ## Resoursos 
@@ -146,6 +126,35 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-## Support
-<a href="https://www.buymeacoffee.com/issam.seghir" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+
+
+## Special Thanks
+
+
+
+
+
+
+
+
+
+
+<div align="center">
+  
+   To  the kind-hearted [Oussama Elzero](https://github.com/OsamaElzero) ❤
+  
+i sincerely appreciate your effort and the time you have taken to provide us with such valuable information and advice through your excellent online courses. 
+
+thank you for generously sharing your knowledge and expertise with us for free !!
+
+<img src="https://user-images.githubusercontent.com/74573675/233981012-36b8cad9-5d3d-4115-9d43-f7e46dc57bac.png" width="150" height="150">
+</div>
+
+
+<div align="center">
+
+## Support Him 
+
+<a href="https://www.buymeacoffee.com/OsamaElzero" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Elzero A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
+</div>
 
