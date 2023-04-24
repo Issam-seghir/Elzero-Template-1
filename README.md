@@ -53,7 +53,36 @@ I have created this project following  the [Elzero front-end course](https://elz
 
 ## Lighthouse PageSpeed Insights
 
-[![Google PageSpeed](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Falshedivat.github.io%2Fal-folio%2F&form_factor=desktop)
+<div align="center">
+
+[![Google PageSpeed](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/pagespeed.svg)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fissam-seghir.github.io%2FElzero-Template-1%2F&form_factor=desktop)
+
+</div>
+
+
+
+## Special Thanks
+
+
+
+
+
+
+
+
+
+
+<div align="center">
+  
+   To [Oussama Elzero](https://github.com/OsamaElzero)
+  
+i sincerely appreciate your effort and the time you have taken to provide us with such valuable information and advice through your excellent online courses. 
+
+thank you for generously sharing your knowledge and expertise with us for free !!
+
+<img src="https://user-images.githubusercontent.com/74573675/233981012-36b8cad9-5d3d-4115-9d43-f7e46dc57bac.png" width="150" height="150">
+</div>
+
 
 ## Resoursos 
 - ✨ Tools
@@ -83,6 +112,8 @@ I have created this project following  the [Elzero front-end course](https://elz
 - [@mouatezbenariba](https://github.com/mouatezbenariba/template-html-css-01)
 - [@HalemoGPA](https://github.com/HalemoGPA/HTML_CSS_TEMP_1)
 - [@Reem-Elamoudi](https://github.com/Reem-Elamoudi/elzero-template2)
+
+
 
 
 
