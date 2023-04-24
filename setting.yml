@@ -1,3 +1,0 @@
-
-- name: Lighthouse-Badger
-  uses: MyActionWay/lighthouse-badger-action@v2.2
